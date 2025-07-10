@@ -76,7 +76,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-align: center;
   gap: 60px;
   padding: 80px 60px;
   background-color: white;
@@ -92,17 +91,17 @@ body {
 }
 
 .action-left h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 15px;
   color: #222;
 }
 
 .action-left p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #777;
   margin-bottom: 25px;
   max-width: 400px;
-  align-items: center;
+  
 }
 
 .btn-preview {
@@ -118,14 +117,19 @@ body {
   flex: 1;
   text-align: center;
   min-width: 280px;
+  position: relative;
+  
 }
 
 .action-right img {
   max-width: 100%;
   border-radius: 20px;
-  justify-content: right;
+  overflow: hidden;
+  
+  justify-content: space-between;
   
 }
+
 
 /* CSS */
 .productive-section {
@@ -134,8 +138,8 @@ body {
       padding: 50px 20px;
       border-radius: 1rem;
       margin-top: 20px;
-      margin-left: 30px;
-      margin-right: 30px;
+      margin-left: 100px;
+      margin-right: 100px;
   
     }
     
@@ -181,7 +185,7 @@ body {
     }
 
     .feedback-section h2 {
-      font-size: 3em;
+      font-size: 4em;
       color: #333;
       margin-bottom: 10px;
     }
@@ -200,9 +204,10 @@ body {
       background-color: white;
       padding: 25px;
       border-radius: 12px;
-      width: 280px;
+      width: 300px;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
       text-align: left;
+      position: relative;
     }
 
     .card h2{
@@ -257,14 +262,17 @@ body {
       align-items: center;
       padding: 60px 20px;
       background-color: #fff;
+      margin-left: 100px;
+      margin-right: 100px;
     }
 
     .contact-title {
       flex: 1 1 300px;
       padding: 20px;
-      font-size: 2em;
+      font-size: 5rem;
       font-weight: bold;
       color: #333;
+     
     }
 
     .contact-form {
