@@ -76,10 +76,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
-  padding: 80px 60px;
+  gap: 750px;
+  padding:  80px 80px;
   background-color: rgb(212, 189, 189);
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 100px;
@@ -94,6 +94,7 @@ body {
   font-size: 3rem;
   margin-bottom: 15px;
   color: #222;
+  
 }
 
 .action-left p {
@@ -116,7 +117,7 @@ body {
 .action-right {
   flex: 1;
   text-align: center;
-  min-width: 300px;
+  min-width: 500px;
   
   
 }
