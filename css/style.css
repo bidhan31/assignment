@@ -37,6 +37,9 @@ body {
   border-radius: 6px;
   font-weight: 600;
 }
+.btn-signup:hover{
+    background-color: #327e61;
+}
 
 /* Hero Section */
 .hero {
@@ -56,7 +59,7 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.4;
 }
 
@@ -69,6 +72,9 @@ body {
   font-weight: 600;
   font-size: 1rem;
 }
+.btn-focus:hover{
+    background-color: #327e61;
+}
 
 
 /* Action Section */
@@ -76,9 +82,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 750px;
   padding:  80px 80px;
-  background-color: rgb(212, 189, 189);
+  background-color: white;
   flex-wrap: nowrap;
   margin-top: 20px;
   margin-left: 100px;
@@ -88,6 +93,7 @@ body {
 .action-left {
   flex: 1;
   min-width: 280px;
+  margin-left: 50px;
 }
 
 .action-left h2 {
@@ -113,11 +119,15 @@ body {
   border-radius: 8px;
   font-weight: 600;
 }
+.btn-preview:hover{
+    background-color: #327e61;
+}
 
 .action-right {
-  flex: 1;
+
   text-align: center;
   min-width: 500px;
+  position:relative;
   
   
 }
@@ -130,9 +140,9 @@ body {
 }
 
 
-/* CSS */
+/* productive */
 .productive-section {
-      background-color: #ece6ff; /* soft purple background */
+      background-color: #ffe6e6; /* soft purple background */
       text-align: center;
       padding: 50px 20px;
       border-radius: 1rem;
@@ -178,7 +188,7 @@ body {
 
     .feedback-section {
       padding: 60px 20px;
-      background-color: #968e8e;
+      background-color: white;
       text-align: center;
       margin-top: 20px;
       margin-left: 100px;
@@ -206,10 +216,11 @@ body {
       background-color: white;
       padding: 25px;
       border-radius: 12px;
-      width: 300px;
+      width: 500px;
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
       text-align: left;
       position: relative;
+      justify-content: space-between;
     }
 
     .card h2{
@@ -317,7 +328,7 @@ body {
     }
 
     .contact-form button:hover {
-      background-color: #0056b3;
+      background-color: #327e61;
     }
 
    
@@ -364,5 +375,5 @@ body {
     }
 
     .footer-links a:hover {
-      color: #007bff;
+      color: #16804b;
     }
