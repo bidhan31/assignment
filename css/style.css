@@ -1,4 +1,4 @@
-/* Reset some defaults */
+
 * {
   margin: 0;
   padding: 0;
@@ -24,12 +24,13 @@ body {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
   color: #4b4bff;
 }
 
 .btn-signup {
+  font-size: 1.2rem;
   padding: 10px 20px;
   background-color: #4b4bff;
   color: white;
@@ -164,6 +165,7 @@ body {
       justify-content: center;
       flex-wrap: wrap;
       gap: 110px;
+      
     }
 
     .stat-item {
@@ -213,7 +215,7 @@ body {
     }
 
     .card {
-      background-color: white;
+      background-color: whitesmoke;
       padding: 25px;
       border-radius: 12px;
       width: 500px;
@@ -230,6 +232,7 @@ body {
     .stars {
       color: #f5a623;
       margin-bottom: 10px;
+      font-size: 2rem;
     }
 
     .feedback-text {
@@ -282,7 +285,7 @@ body {
     .contact-title {
       flex: 1 1 300px;
       padding: 20px;
-      font-size: 5rem;
+      font-size: 6rem;
       font-weight: bold;
       color: #333;
      
@@ -345,14 +348,14 @@ body {
     }
 
     .footer-logo {
-      font-size: 2em;
+      font-size: 3.5rem;
       font-weight: bold;
       color: #007bff;
       margin-bottom: 10px;
     }
 
     .footer-subtitle {
-      font-size: 1em;
+      font-size: 1rem;
       color: #555;
       margin-bottom: 30px;
       max-width: 600px;
