@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url('/Assets/Hero-bg.png') no-repeat center center;
+  background: url('../Assets/Hero-bg.png') ;
   background-size: cover;
   color: #111;
   height: 100vh;
